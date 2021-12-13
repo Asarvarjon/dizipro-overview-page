@@ -1,0 +1,28 @@
+ *,*::after,
+ *::before {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ $brendColor: #ffedbb;
+
+ ul,
+ ol {
+   list-style: none;
+ }
+
+ body {
+   background-color: white;
+   font-family: 'SF Pro Display', sans-serif;
+ }
+
+ .container {
+   margin: 0 auto;
+   width: 80%;
+ }
+
+ a {
+   text-decoration: none;
+   color: #008ddd;
+ }
